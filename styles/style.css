@@ -86,6 +86,54 @@
   right: 0;
 }
 
+/* Далее идут стили для блока description */
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 100px 0;
+}
+
+.description__two-columns {
+  width: 80%;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  width: 80%;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
