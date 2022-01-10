@@ -24,8 +24,8 @@
 }
 
 .logo {
-  width: 183px;
-  height: 32px;
+  width: 184px;
+  height: 36px;
 }
 
 .logo_place_header {
@@ -280,4 +280,82 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* Стили для блока footer */
+.footer {
+  min-height: 250px;
+  padding: 60px 0 40px 0;
+
+  background-color: #000;
+}
+
+.footer__columns {
+  width: 90%;
+  min-height: 250px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: #fff;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  display: block;
+  width: 184px;
+  height: 36px;
+
+  background-image: url("../images/logo_place_footer.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.footer__author {
+  margin: 18px 0;
+
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 30px;
+  text-align: start;
+  font-weight: bold;
+}
+
+.footer__column-links {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 16px;
+
+  font-size: 18px;
+  line-height: 30px;
+  text-align: start;
+  font-weight: normal;
+}
+
+.footer__column-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
 }
