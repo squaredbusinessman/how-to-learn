@@ -1,0 +1,21 @@
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 10;
+
+  transition: background-color 0.5s linear;
+}
+
+@media (any-hover: hover) {
+  .logo_place_header:hover {
+    border: 5px solid #2f80ed;
+    margin-top: -5px;
+    margin-left: -5px;
+
+    background-color: #2f80ed;
+
+    transition: background-color 0.1s linear;
+  }
+
+}

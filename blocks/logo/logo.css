@@ -1,0 +1,10 @@
+.logo {
+  width: 184px;
+  height: 36px;
+
+  display: block;
+
+  background-image: url("../images/logo_place_header.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,19 @@
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+
+  transition: background-color 0.5s linear;
+}
+
+@media (any-hover: hover) {
+  .header__link:hover {
+    border: 5px solid #2f80ed;
+    margin-top: -5px;
+    margin-left: -5px;
+
+    background-color: #2f80ed;
+    color: #fff;
+
+    transition: background-color 0.1s linear;
+  }
+}
