@@ -1,0 +1,16 @@
+.link-component_logo_bg-dark {
+  transition: background-color .5s linear, opacity .5s linear;
+}
+
+@media (any-hover: hover) {
+  .link-component_logo_bg-dark:hover {
+    border: 5px solid #fff;
+    margin-top: -4px;
+    margin-left: -4px;
+
+    background-color: #fff;
+    opacity: .5;
+
+    transition: background-color .2s linear, opacity .2s linear;
+  }
+}

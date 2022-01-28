@@ -49,6 +49,10 @@
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__description/cards__description.css);
 @import url(../blocks/link-component/link-component.css);
+@import url(../blocks/link-component/_logo/link-component_logo_bg-light.css);
+@import url(../blocks/link-component/_logo/link-component_logo_bg-dark.css);
+@import url(../blocks/link-component/_text/link-component_text.css);
+@import url(../blocks/link-component/_text/link-component_text_dark.css);
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
 @import url(../blocks/video/__iframe/video__iframe.css);

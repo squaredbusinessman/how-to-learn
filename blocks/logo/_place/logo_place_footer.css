@@ -6,18 +6,4 @@
   background-image: url("../../../images/logo_place_footer.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
-
-  transition: background-color 0.5s linear;
-}
-
-@media (any-hover: hover) {
-  .logo_place_footer:hover {
-    border: 5px solid #fff;
-    margin-top: -5px;
-    margin-left: -5px;
-
-    background-color: #fff;
-
-    transition: background-color 0.1s linear;
-  }
 }

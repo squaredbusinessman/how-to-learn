@@ -1,0 +1,18 @@
+.link-component_text_dark {
+  transition: background-color .5s linear, opacity .5s linear;
+}
+
+
+@media (any-hover: hover) {
+  .link-component_text_dark:hover {
+    border: 3px solid #fff;
+    margin-left: -3px;
+    margin-right: -3px;
+
+    color: #000;
+    background-color: #fff;
+    opacity: .3;
+
+    transition: background-color .2s linear, opacity .2s linear;
+  }
+}
