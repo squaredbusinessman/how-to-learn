@@ -1,13 +1,11 @@
 .link-component {
   text-decoration: none;
-
   transition: opacity .5s linear;
 }
 
 @media (any-hover: hover) {
   .link-component:hover {
     opacity: .3;
-
     transition: opacity .2s linear;
   }
 }

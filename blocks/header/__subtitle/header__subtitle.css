@@ -3,14 +3,12 @@
   bottom: 30px;
   left: 64px;
   z-index: 10;
-
   display: block;
   width: 100%;
   max-width: 389px;
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
-
   margin: 0;
   padding: 0;
 }
