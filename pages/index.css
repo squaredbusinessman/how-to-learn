@@ -25,8 +25,6 @@
 @import url(../blocks/logo/_place/logo_place_footer.css);
 
 @import url(../blocks/link-component/link-component.css);
-@import url(../blocks/link-component/_logo/link-component_logo_bg-light.css);
-@import url(../blocks/link-component/_logo/link-component_logo_bg-dark.css);
 @import url(../blocks/link-component/_text/link-component_text.css);
 @import url(../blocks/link-component/_text/link-component_text_dark.css);
 
