@@ -1,8 +1,8 @@
-/* Блок с анимацией, по правилам - в самом начале CSS */
-@import url(../blocks/rotation/rotation.css);
-
 /* Нормалайз */
 @import url(../vendors/normalize.css);
+
+/* Блок с анимацией, по правилам - в самом начале CSS */
+@import url(../blocks/rotation/rotation.css);
 
 /* Блок основной обёртки page */
 @import url(../blocks/page/page.css);
