@@ -8,7 +8,7 @@
   background-image: url("../../../images/logo_place_header.svg");
   background-position: 0 0;
   background-repeat: no-repeat;
-  transition: background-color .5s linear, opacity .5s linear;
+  transition: background-color .5s linear;
 }
 
 @media (any-hover: hover) {
@@ -17,7 +17,8 @@
     margin-top: -5px;
     margin-left: -4px;
     background-color: #2f80ed;
-    opacity: .5;
-    transition: background-color .2s linear, opacity .2s linear;
+    transition: background-color .2s linear;
   }
 }
+
+/* Ховер в данном случае меняет не только прозрачность, по окончании прошлой ПР ревьюер добавил в требования "можно лучше"  добавление фона к ховерам ссылок, разве теперь это считается ошибкой? Прозрачность оставил только в компоненте link-component */
